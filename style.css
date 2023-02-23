@@ -1,13 +1,23 @@
  @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 
-.contaner{
+.container{
     display: flex;
     flex-direction: column;
     align-content: space-between;
     gap: 40px;
 }
 
-
+.boxes{
+    margin-top: 20px;
+    margin-left: 1000px;
+    width: 550px;
+    height: 1650px;
+}
+.box2{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(245, 192, 245);
+}
 .box{
     margin: 0 auto;
     width: 500px;
@@ -16,6 +26,7 @@
 }
 
 h1{
+    margin-top: 20px;
     margin-left: 35%;
     font-size: 50px;
     margin-top: 30px;
